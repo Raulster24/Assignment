@@ -4,7 +4,7 @@
   "description": "assignment for quality engineer position ",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --watch test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Raulster24/Assignment/issues"
   },
-  "homepage": "https://github.com/Raulster24/Assignment#readme"
+  "homepage": "https://github.com/Raulster24/Assignment#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
 }
