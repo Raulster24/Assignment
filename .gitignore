@@ -1,6 +1,8 @@
 # Ignore node_modules
 node_modules/
 
+mochawesome-report/
+
 # Ignore build artifacts
 dist/
 build/
@@ -24,3 +26,6 @@ yarn-error.log*
 .vscode/
 .idea/
 *.iml
+
+#package-lock.json
+package-lock.json
